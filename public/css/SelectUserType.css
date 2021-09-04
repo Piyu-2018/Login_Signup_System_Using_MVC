@@ -1,0 +1,73 @@
+body {
+  background-image: url("../imgs/background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+  background-position-y: 10%;
+  background-color: #202020;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+  width: 70%;
+}
+
+.asavendor,
+.asacustomer {
+  width: min-content;
+  margin: ;
+  display: inline-block;
+  padding-left: ;
+  padding-right: ;
+}
+.asacustomer {
+  position: absolute;
+  right: 5%;
+}
+
+.asavendor_glass {
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 334px;
+  height: 280px;
+  vertical-align: middle;
+  width: max-content;
+  background-image: linear-gradient(
+      114.1deg,
+      rgba(40, 40, 40, 0.61) 18.52%,
+      rgba(15, 15, 15, 0) 98.52%
+    ),
+    linear-gradient(
+      106.04deg,
+      rgba(255, 255, 255, 0.12) 10.95%,
+      rgba(255, 255, 255, 0.1) 98.32%
+    );
+  backdrop-filter: blur(1160px);
+  -webkit-backdrop-filter: blur(160px);
+
+  border-radius: 43px;
+}
+.asavendor h1 {
+  font-family: Actor;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.asacustomer h1 {
+  font-family: Actor;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #ffffff;
+}
